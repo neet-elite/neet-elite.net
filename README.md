@@ -1,1 +1,1 @@
-This is my personal site. Feel free to take whatever you want from it, I don't care.
+This is my personal site. Feel free to take whatever you want from it, I don't care. The net is yours!
