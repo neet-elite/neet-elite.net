@@ -1,0 +1,44 @@
+#float {
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+    font-size:5em;
+    font-weight:bold; 
+    color: #fff;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+body{
+    margin: 0 auto; 
+    font-size: 2.7vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    background-color: #000;
+    color: #fff;
+}
+
+p{
+    padding-left:5%;
+    padding-right:5%;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #0000EE;
+    color: #0000EE;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+
+a:hover {
+    box-shadow: inset 100px 0 0 0 #0000EE;
+    color: white;
+}
