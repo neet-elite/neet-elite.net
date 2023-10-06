@@ -245,6 +245,7 @@ p{
         display: flex; 
         flex-flow: column; 
         width:90%;
+        height:90%;
         margin-top:3%;
         margin-left:5%;
       }
