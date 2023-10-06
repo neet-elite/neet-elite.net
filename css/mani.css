@@ -42,3 +42,9 @@ a:hover {
     box-shadow: inset 100px 0 0 0 #0000EE;
     color: white;
 }
+
+@media only screen and (max-width: 640px) {
+    #float{
+        font-size: 2vh;
+    }
+}

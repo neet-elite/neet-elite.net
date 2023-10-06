@@ -244,21 +244,28 @@ p{
     .container{
         display: flex; 
         flex-flow: column; 
-        width:155%;
+        width:90%;
         margin-top:3%;
         margin-left:5%;
       }
 
     .maincont{
         order: 1;
+        height:1000px;
     }
 
     .sideleft{
         order:2;
+        height:50%;
+        text-align: center;
+        overflow: auto;
     }
 
     .sideright{
         order:3;
+        height:50%;
+        text-align: center;
+        overflow: auto;
     }
 
     .head{
@@ -266,6 +273,6 @@ p{
     }
 
     .foot{
-        order:4;
+        display:none;
     }
 }
