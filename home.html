@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="homestyle.css">
     </head>
     <body>
+        <button onclick="myFunction()">dark mode</button>
 
         <div class="container">
             <div class="head">
@@ -79,5 +80,11 @@
             </div>
           </div>
 
+          <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
     </body>
 </html>
