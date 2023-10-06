@@ -26,7 +26,7 @@
 
 body{
     font-family: ms gothic, monospace;
-    font-size: 1.5vh;
+    font-size: 2vh;
 }
 
 a {
@@ -150,7 +150,7 @@ hr {
     margin-top: 5%;
   }
   
-  .maincont { 
+.maincont { 
     grid-area: maincont; 
     border: 1px solid black;
     height: 100%;
@@ -213,14 +213,15 @@ hr {
     grid-area: head; 
     height: 100%;
     width: 100%;
+    border: 1px solid black;
 }
 
 #header_img{
     width:100%;
     height:100%;
-    background-position: 50.5% 45%; 
+    background-position: 40% 45%; 
     background-repeat: no-repeat;
-    background-image:url('https://files.catbox.moe/rt5yj6.png');
+    background-image:url('https://files.catbox.moe/s0rae6.png');
 }
 
 marquee{
@@ -238,4 +239,33 @@ marquee{
 p{
     padding: 2%;
 }
-  
+
+@media only screen and (max-width: 640px) {
+    .container{
+        display: flex; 
+        flex-flow: column; 
+        width:155%;
+        margin-top:3%;
+        margin-left:5%;
+      }
+
+    .maincont{
+        order: 1;
+    }
+
+    .sideleft{
+        order:2;
+    }
+
+    .sideright{
+        order:3;
+    }
+
+    .head{
+        display:none;
+    }
+
+    .foot{
+        order:4;
+    }
+}
