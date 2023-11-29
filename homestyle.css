@@ -216,8 +216,9 @@ hr {
 .head { 
     grid-area: head; 
     height: 100%;
-    width: 100%;
+    width: 68%;
     border: 1px solid black;
+    margin:auto;
 }
 
 #header_img{
